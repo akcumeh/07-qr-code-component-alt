@@ -46,10 +46,13 @@ a:hover {
 }
 
 /* Mobile - Phones & Small Tabs */
-
 @media (max-width: 768px) {
     body {
-        padding: 20% 5% 5%;
+        padding: 15% 5% 5%;
+    }
+
+    footer {
+        margin: 20% 0 0;
     }
 }
 
@@ -75,10 +78,9 @@ a:hover {
 }
 
 /* Desktop - Large Tabs, Laptops and bigger */
-
 @media (min-width: 993px) {
     body {
-        padding: 5% 40% 0;
+        margin: 10% 40% 0;
     }
 
     div {
@@ -91,6 +93,10 @@ a:hover {
 
     p {
         font-size: 0.8rem;
-        padding-bottom: 0;
+        padding-bottom: 10%;
+    }
+
+    footer {
+        margin: 20% 0 0;
     }
 }
