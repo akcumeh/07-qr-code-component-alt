@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    border-radius: 20px !important;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 5% 5%;
+}
+
+img {
+    width: 85%;
+    margin: 7.5%;
+    border-radius: 5%;
+}
+
+footer {
+    margin: 5vw auto 2vw auto !important;
+    width: 100%;
+}
+
+a {
+    color: hsl(220, 15%, 55%);
+    text-decoration-style: dashed;
+}
+
+a:hover {
+    color: hsl(216, 95%, 58%);
+}
+
+/* Mobile - Phones & Small Tabs */
+
+@media (max-width: 768px) {
+    body {
+        padding: 20% 5% 5%;
+    }
+}
+
+/* Desktop - Large Tabs, Laptops and bigger */
+
+@media (min-width: 769px) {
+    body {
+        padding: 5% 40% 0;
+    }
+
+    div {
+        border-radius: 20px !important;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        padding-bottom: 0;
+    }
+}
