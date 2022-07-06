@@ -6,30 +6,33 @@ body {
 
 div {
     background-color: white;
-    border-radius: 20px !important;
+    border-radius: 25px !important;
+    margin: 0;
 }
 
 h3 {
     font-size: 2rem;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    margin: 0 5%;
 }
 
 p {
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: 1.5;
     color: hsl(220, 15%, 55%);
-    padding: 5% 5%;
+    padding: 0 5% 10%;
 }
 
 img {
-    width: 85%;
-    margin: 7.5%;
+    width: 90%;
+    margin: 5%;
     border-radius: 5%;
 }
 
 footer {
-    margin: 5vw auto 2vw auto !important;
+    padding: 7.5vw auto 2.5vw!important;
     width: 100%;
 }
 
@@ -50,9 +53,30 @@ a:hover {
     }
 }
 
+/* Tablet - Small & Medium Tab */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        padding: 10% 25% 0;
+    }
+
+    h3 {
+        margin: 0 5%;
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+        padding: 0 5% 10%;
+    }
+
+    footer {
+        margin: 20% 0 0;
+    }
+}
+
 /* Desktop - Large Tabs, Laptops and bigger */
 
-@media (min-width: 769px) {
+@media (min-width: 993px) {
     body {
         padding: 5% 40% 0;
     }
